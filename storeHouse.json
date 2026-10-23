@@ -1,20 +1,12 @@
 {
   "storeHouse": [
     {
-      "sourceName": "饭太硬 (primary)",
-      "sourceUrl": "http://fty.888484.xyz/tv"
+      "sourceName": "王二小 4K (主线)",
+      "sourceUrl": "https://9280.kstore.vip/aiwex.json"
     },
     {
-      "sourceName": "饭太硬 (mirror .net)",
-      "sourceUrl": "http://www.饭太硬.net/tv"
-    },
-    {
-      "sourceName": "饭太硬 (mirror .cc)",
-      "sourceUrl": "http://www.饭太硬.cc/tv"
-    },
-    {
-      "sourceName": "饭太硬 (mirror .art)",
-      "sourceUrl": "http://www.饭太硬.art/tv"
+      "sourceName": "王二小 4K (备线)",
+      "sourceUrl": "https://9280.kstore.space/aiwex.json"
     },
     {
       "sourceName": "香雅情 (jsDelivr CDN)",
@@ -25,8 +17,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"
     },
     {
-      "sourceName": "香雅情 (ghproxy mirror)",
-      "sourceUrl": "https://ghproxy.net/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"
+      "sourceName": "欧歌 (聚合线路)",
+      "sourceUrl": "http://tv.nxog.top/m/111.php?ou=http://tv.nxog.top&out=json"
     }
   ]
 }
