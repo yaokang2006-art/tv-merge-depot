@@ -1,0 +1,32 @@
+{
+  "storeHouse": [
+    {
+      "sourceName": "饭太硬 (primary)",
+      "sourceUrl": "http://fty.888484.xyz/tv"
+    },
+    {
+      "sourceName": "饭太硬 (mirror .net)",
+      "sourceUrl": "http://www.饭太硬.net/tv"
+    },
+    {
+      "sourceName": "饭太硬 (mirror .cc)",
+      "sourceUrl": "http://www.饭太硬.cc/tv"
+    },
+    {
+      "sourceName": "饭太硬 (mirror .art)",
+      "sourceUrl": "http://www.饭太硬.art/tv"
+    },
+    {
+      "sourceName": "香雅情 (jsDelivr CDN)",
+      "sourceUrl": "https://cdn.jsdelivr.net/gh/xyq254245/xyqonlinerule@main/XYQTVBox.json"
+    },
+    {
+      "sourceName": "香雅情 (GitHub raw)",
+      "sourceUrl": "https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"
+    },
+    {
+      "sourceName": "香雅情 (ghproxy mirror)",
+      "sourceUrl": "https://ghproxy.net/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"
+    }
+  ]
+}
