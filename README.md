@@ -32,14 +32,23 @@ No extra source URLs were added.
 
 ## Public URLs / 公开地址
 
-GitHub Pages is enabled from branch `main`, folder `/` (root).
+Preferred host is **GitHub Pages** from branch `main`, folder `/` (root). Enabling Pages requires repo **admin** (Settings → Pages). The Cloud Agent token cannot flip that switch (`POST /repos/.../pages` returns 403).
 
-### GitHub Pages (preferred HTTPS)
+Owner one-liner (from a machine logged in as `yaokang2006-art`):
+
+```bash
+gh api --method POST repos/yaokang2006-art/tv-merge-depot/pages \
+  -f build_type=legacy -f source[branch]=main -f source[path]='/'
+```
+
+Or: Settings → Pages → Build and deployment → Source: **Deploy from a branch** → Branch: **main** → Folder: **/ (root)** → Save.
+
+### GitHub Pages (preferred HTTPS, after the switch above)
 
 - Depot (影视仓 / FongMi): `https://yaokang2006-art.github.io/tv-merge-depot/depot.json`
 - Classic twin: `https://yaokang2006-art.github.io/tv-merge-depot/storeHouse.json`
 
-### Backup raw / jsDelivr URLs (same files)
+### Backup raw / jsDelivr URLs (same files, live now)
 
 - `https://raw.githubusercontent.com/yaokang2006-art/tv-merge-depot/main/depot.json`
 - `https://raw.githubusercontent.com/yaokang2006-art/tv-merge-depot/main/storeHouse.json`
